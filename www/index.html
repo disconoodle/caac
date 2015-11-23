@@ -64,14 +64,14 @@
 				<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
 					<div class="top-header">
 						<div class="logo">
-							<a href="http://www.caacarts.org"><img src="img/caac-logo.png"/></a>
+							<a href="http://www.caacarts.org"><img src="img/header-logo.png"/></a>
 						</div>
 						<!----start-top-nav---->
 						 <nav class="top-nav">
 							<ul class="top-nav">
-								<li><a href="#about" class="scroll">about</a></li>
-								<li class="page-scroll"><a href="#contact" class="scroll">contact</a></li>
-								<li class="active-join" class="page-scroll"><a href="#subscribe" class="scroll">Subscribe</a></li>
+								<li><a href="#about" class="scroll">what do we do</a></li>
+								<li class="page-scroll"><a href="#contact" class="scroll">contact us</a></li>
+								<li class="active-join" class="page-scroll"><a href="#subscribe" class="scroll">newsletter</a></li>
 							</ul>
 							<a href="#" id="pull"><img src="img/nav-icon.png" title="menu" /></a>
 						</nav>
@@ -81,7 +81,7 @@
 			</div>
 			<!----- //End-header---->
 			<div class="banner-info">
-				<a href="http://www.caacarts.org/dp/?q=/node/15&id=242" target="_blank"><img src="img/caac-cover1.jpg" style="max-width:100%; "></a>
+				<a href="http://www.caacarts.org/dp/?q=/node/15&id=242" target="_blank"><img src="img/home-cover1.jpg" style="max-width:100%; "></a>
 				<br>
 			</div>
 			<div class="clearfix"> </div>
@@ -90,8 +90,8 @@
 			<div id="about" class="about">
 				<div class="head-section">
 					<div class="container">
-						<h3><span>about</span><br>
-						<label>Chinese American Arts Council/Gallery 456</label></h3>
+						<h3><span>What do we do</span>
+						</h3>
 					</div>
 				</div>
 					<!--- about-grids ---->
@@ -101,18 +101,20 @@
 								<h4><a href="#">about CAAC</a></h4>
 								<p>Chinese American Arts Council was established in 1975 to meet the cultural needs of the expanding Chinese community in New York City. It aims to preserve the Chinese heritage within its own community and to introduce its culture to the greater New York community. Today it is the largest Chinese American arts presentation and service organization in the Eastern US. It presents many events annually at Lincoln Center, Chinatown and other locations in NY City and is recognized by New York city and state agencies as the arts liaison including but not limited to the Chinese American community.</p>
 							</div>
+							<!--
 							<div class="about-grid-pic">
 							<img src="img/about-pic1.jpg" title="name" />
 							</div>
+							-->
 						</div>
 						<div class="col-md-4 about-grid about-grid2 wow fadeInUp" data-wow-delay="0.4s">
-							<div class="about-grid-pic">
-							<img src="img/about-pic2.jpg" title="name" />
-							</div>
 							<div class="about-grid-info">
 								<h4><a href="#">about Gallery 456</a></h4>
 								<p>On April 14, 1989, the Chinese American Arts Council opened the first non profit Asian art gallery in SOHO. The Council's office, located at 456 Broadway 3rd floor, was renovated to include Gallery 456. The newly created 700 square foot gallery, complete with track lighting, presented its first five artists' exhibition, featuring four painters and a sculptor, Dan Qing Chen, Che Chuang, Yan Hsia, Ji Da Wong, and Chi Hung Yang. The opening was a gala celebration for the new gallery. Three hundred, old and new friends, joined the staff and artists, enjoyed the art and wished success of the new venture. 
 								As part of an art service organization, the gallery serves not only the artist, visual and performing but also the community and the general public. Seminars on art are often planned to further the public appreciation of the culture.</p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="img/about-pic1.jpg" title="name" />
 							</div>
 						</div>
 						<div class="clearfix"> </div>
@@ -123,13 +125,18 @@
 			<div class="clearfix"> </div>
 			<!---- about ----> 
 			<!---- map ---->
+				<div class="head-section">
+					<div class="container">
+						<h3><span>Contact Us</span></h3>
+					</div>
+				</div>
 			<div id="contact" class="map">
 				<div class="map-location">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.8875056128736!2d-74.00278008498917!3d40.720492879331026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598bd53f4829%3A0x9627b5363beaa3a6!2sChinese+American+Arts+Council!5e0!3m2!1sen!2sus!4v1447696931485" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 				<div class="contact-info text-center wow fadeInLeft" data-wow-delay="0.3s">
 					<h4><span>Chinese American Arts Council/Gallery 456</h4>
-					<p><span class="map-icon1"> </span>456 Broadway, 3rd Floor, NY 10013</p>
+					<p><span class="map-icon1"> </span>456 Broadway, 3rd Fl. NY 10013</p>
 					<p><span class="map-icon2"> </span>info@caacarts.org</p>
 					<p><span class="map-icon3"> </span>212-431-9740</p>
 				</div>
@@ -140,20 +147,50 @@
 			<div id="subscribe" class="subscribe">
 				<div class="head-section">
 					<div class="container">
-						<h3><span>subscribe</span><label>Newsletter</label></h3>
+						<h3><span>subscribe our newsletter</span></h3>
 					</div>
 				</div>
-				<div id="subscribe_form" class="subscribe_form">
+				<div id="subscribe_form" class="text-center">
+					<br>
 					<form name="main">
 					<input type="hidden" name="m__scbid" value=''>
 					<input type="text" name="m__email" class="text-center" value="Email (Required)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email (Required)';}">
 					&nbsp;&nbsp;&nbsp;<input type="button" value="Submit" onclick="ValidateEmail(document.main.m__email)">
 					</form>
+					<br>
 				</div>
 			</div>
 			<!---- subscribe ---->
 			<div class="clearfix"> </div>
-       </div>
+ 			<!---- footer --->
+			<div class="footer text-center">
+				<div class="container">
+					<div class="footer-inner wow zoomIn" data-wow-delay="0.3s">
+						<ul>
+							<li><a href="#"><img src="img/footer-logo.png" title="caac" /></a></li>
+							<li><a class="contact-me" href="#contact">contact us</a></li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+			<!---- footer --->
+      </div>
 	   
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="./js/index.js"></script>
