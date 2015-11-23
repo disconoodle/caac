@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+		
+        <title>Chinese American Arts Council/Gallery 456</title>
+		<meta name="keywords" content="non-profit Chinese American arts gllery exhibition performance folk art opera" />
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+		<!----webfonts--->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+		<!---//webfonts--->
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+    </head>
+    <body>
+        <div class="app">
+			<!----- start-header---->
+			<div class="container">
+				<div id="home" class="header wow bounceInDown" data-wow-delay="0.4s">
+					<div class="top-header">
+						<div class="logo">
+							<a href="http://www.caacarts.org"><img src="img/caac-logo.png"/></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#about" class="scroll">about</a></li>
+								<li class="page-scroll"><a href="#contact" class="scroll">contact</a></li>
+								<li class="active-join" class="page-scroll"><a href="#subscribe" class="scroll">Subscribe</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="img/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<div class="banner-info">
+				<a href="http://www.caacarts.org/dp/?q=/node/15&id=242" target="_blank"><img src="img/caac-cover1.jpg" style="max-width:100%; "></a>
+				<br>
+			</div>
+			<div class="clearfix"> </div>
+			<!---- banner-info ---->
+ 			<!---- about ---->
+			<div id="about" class="about">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>about</span><br>
+						<label>Chinese American Arts Council/Gallery 456</label></h3>
+					</div>
+				</div>
+					<!--- about-grids ---->
+					<div class="about-grids">
+						<div class="col-md-4 about-grid about-grid1 wow fadeInLeft" data-wow-delay="0.4s">
+							<div class="about-grid-info">
+								<h4><a href="#">about CAAC</a></h4>
+								<p>Chinese American Arts Council was established in 1975 to meet the cultural needs of the expanding Chinese community in New York City. It aims to preserve the Chinese heritage within its own community and to introduce its culture to the greater New York community. Today it is the largest Chinese American arts presentation and service organization in the Eastern US. It presents many events annually at Lincoln Center, Chinatown and other locations in NY City and is recognized by New York city and state agencies as the arts liaison including but not limited to the Chinese American community.</p>
+							</div>
+							<div class="about-grid-pic">
+							<img src="img/about-pic1.jpg" title="name" />
+							</div>
+						</div>
+						<div class="col-md-4 about-grid about-grid2 wow fadeInUp" data-wow-delay="0.4s">
+							<div class="about-grid-pic">
+							<img src="img/about-pic2.jpg" title="name" />
+							</div>
+							<div class="about-grid-info">
+								<h4><a href="#">about Gallery 456</a></h4>
+								<p>On April 14, 1989, the Chinese American Arts Council opened the first non profit Asian art gallery in SOHO. The Council's office, located at 456 Broadway 3rd floor, was renovated to include Gallery 456. The newly created 700 square foot gallery, complete with track lighting, presented its first five artists' exhibition, featuring four painters and a sculptor, Dan Qing Chen, Che Chuang, Yan Hsia, Ji Da Wong, and Chi Hung Yang. The opening was a gala celebration for the new gallery. Three hundred, old and new friends, joined the staff and artists, enjoyed the art and wished success of the new venture. 
+								As part of an art service organization, the gallery serves not only the artist, visual and performing but also the community and the general public. Seminars on art are often planned to further the public appreciation of the culture.</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- /about-grids ---->
+					<br>
+				</div>
+			<div class="clearfix"> </div>
+			<!---- about ----> 
+			<!---- map ---->
+			<div id="contact" class="map">
+				<div class="map-location">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.8875056128736!2d-74.00278008498917!3d40.720492879331026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598bd53f4829%3A0x9627b5363beaa3a6!2sChinese+American+Arts+Council!5e0!3m2!1sen!2sus!4v1447696931485" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+				<div class="contact-info text-center wow fadeInLeft" data-wow-delay="0.3s">
+					<h4><span>Chinese American Arts Council/Gallery 456</h4>
+					<p><span class="map-icon1"> </span>456 Broadway, 3rd Floor, NY 10013</p>
+					<p><span class="map-icon2"> </span>info@caacarts.org</p>
+					<p><span class="map-icon3"> </span>212-431-9740</p>
+				</div>
+			</div>
+			<!---- map ---->
+			<div class="clearfix"> </div>
+			<!---- subscribe ---->
+			<div id="subscribe" class="subscribe">
+				<div class="head-section">
+					<div class="container">
+						<h3><span>subscribe</span><label>Newsletter</label></h3>
+					</div>
+				</div>
+				<div id="subscribe_form" class="subscribe_form">
+					<form name="main">
+					<input type="hidden" name="m__scbid" value=''>
+					<input type="text" name="m__email" class="text-center" value="Email (Required)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email (Required)';}">
+					&nbsp;&nbsp;&nbsp;<input type="button" value="Submit" onclick="ValidateEmail(document.main.m__email)">
+					</form>
+				</div>
+			</div>
+			<!---- subscribe ---->
+			<div class="clearfix"> </div>
+       </div>
+	   
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
