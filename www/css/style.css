@@ -28,8 +28,8 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 html, body{
-  	font-family: 'Roboto', sans-serif;
-    font-size: 100%;
+  	font-family: Arial, Verdana;
+    font-size: 16px;
   	 background: #FFf;
   	 
 }
@@ -202,7 +202,6 @@ nav a#pull {
 }
 /*---- banner-info ----*/
 .banner-info{
-	
 }
 .banner-info h1{
 	color: #FFF;
@@ -266,10 +265,11 @@ nav a#pull {
 	color:#FFF;
 	text-transform:uppercase;
 	text-decoration:none;
+	font-weight: 400;
 }
 .about-grid-info p{
 	color:#FFFFFF;
-	font-size:0.875em;;
+	//font-size:0.875em;;
 	line-height:1.7em;
 	font-weight:100;
 }
@@ -542,8 +542,9 @@ a.catch-me:hover{
 	padding: 1em 0 0;
 }
 .subscribe_form{
-	margin: auto;
-	padding: 5px;
+	margin: auto 5px;
+	//padding: 5px;
+	font-size: 110%;
 }
 /*---- map ---*/
 .map{
@@ -565,7 +566,7 @@ a.catch-me:hover{
 .contact-info p{
 	color: #FFF;
 	font-weight: 300;
-	font-size: 1.1em;
+	//font-size: 1.1em;
 	line-height: 1.6em;
 }
 .contact-info p span{
@@ -579,7 +580,7 @@ a.catch-me:hover{
 .contact-info h4{
 	color: #FFF;
 	font-weight: 300;
-	font-size: 1.5em;
+	//font-size: 1.5em;
 	margin: 0.8em 0 0.5em;
 }
 .contact-info h4 span{
@@ -613,7 +614,7 @@ a.contact-me{
 	border: 2px solid #FFF;
 	text-transform: uppercase;
 	padding: 0.5em 1.3em;
-	font-size: 0.875em;
+	//font-size: 0.875em;
 	margin-left: 2em;
 	text-decoration: none;
 	margin-top: 1em;
