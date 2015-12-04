@@ -20,6 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         this.bindEvents();
+		initFeatured();
     },
     // Bind Event Listeners
     //
@@ -67,7 +68,7 @@ $('form').submit(function(){
     $.ajax({
         type: 'POST',
         data: postData,
-        url: 'http://www.caacarts.org/wapp/caac/_admin/subscb/post_data.php',
+        url: 'http://www.caacarts.org/wapp/caac/_admin/_bin/post_subscriber.php',
         success: function(data){
             console.log(data);
             if (data.indexOf("SEV-ERR:") >= 0)
@@ -83,3 +84,21 @@ $('form').submit(function(){
  
     return false;
 });
+
+function initFeatured() {
+	var xmlhttp = new XMLHttpRequest(); 
+	xmlhttp.onreadystatechange = function() {
+		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+			//alert("response string:  "+xmlhttp.responseText);
+			var xmlDoc = xmlhttp.responseXML;
+			if (!xmlDoc) {alert("Unrecognised response"); return;}
+			var x = xmlDoc.getElementsByTagName("image");
+			for (i = 0; i < x.length; i++) {
+				document.getElementById("featured").src = x[i].childNodes[0].nodeValue;
+			}
+		}
+	};
+	xmlhttp.open("GET", "http://www.caacarts.org/wapp/caac/_admin/_bin/get_featured.php", true);
+	xmlhttp.setRequestHeader("Content-Type", "text/xml");
+	xmlhttp.send();
+}

@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.caacarts.www" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.caacarts.www" version="0.0.1">
   <name>CAAC</name>
   <description>CAAC / Gallery 456 mobile device app</description>
   <author href="http://www.caacarts.org" email="support@caacarts.org">CAAC</author>
